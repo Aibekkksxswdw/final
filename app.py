@@ -6,7 +6,7 @@ from PIL import Image
 # Load your trained model
 @st.cache(allow_output_mutation=True)
 def load_model():
-    model = tf.keras.models.load_model("model.h5")  # Replace with your model's path
+    model = tf.keras.models.load_model(r"C:\Users\Айбек\final\model.h5")  # Replace with your model's path
     return model
 
 model = load_model()
