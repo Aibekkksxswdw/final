@@ -1,1 +1,8 @@
+from tensorflow.keras.models import load_model
+
+# Загрузка модели
+model = load_model('model.h5')
+
+# Использование модели для предсказаний
+predictions = model.predict(input_data)
 
